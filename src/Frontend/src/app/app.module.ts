@@ -12,12 +12,17 @@ import { CoachesComponent } from './coaches/coaches.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatDialogModule} from '@angular/material/dialog'
+import { AddChallengeComponent } from './challenges/add-challenge/add-challenge.component';
+import { AddCoachComponent } from './coaches/add-coach/add-coach.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChallengesComponent,
-    CoachesComponent
+    CoachesComponent,
+    AddChallengeComponent,
+    AddCoachComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +31,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     FlexLayoutModule,
     MatCardModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
