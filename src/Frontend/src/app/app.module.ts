@@ -9,6 +9,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { ChallengesComponent } from './challenges/challenges.component';
 import { CoachesComponent } from './coaches/coaches.component';
 
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +23,10 @@ import { CoachesComponent } from './coaches/coaches.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatCardModule,
+    MatButtonModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

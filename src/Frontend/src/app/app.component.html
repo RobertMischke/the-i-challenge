@@ -1,17 +1,19 @@
-<div fxFlex fxLayout="column" fxLayoutGap="5px" style="height:100vh" class="container">
-
-  <nav>
+<div
+  fxFlex
+  fxLayout="column"
+  fxLayoutGap="5px"
+  style="height: 100vh"
+  class="container"
+>
+  <mat-toolbar>
     <h1>DIE ICH HERAUSFORDERUNG</h1>
-  </nav>
+  </mat-toolbar>
 
-  <content>
-    <section class="summary">
-      <div>Heute: 22.12.2019</div>
-      <div>Punkte: 0 / 0</div>
-    </section>
-    <app-challenges class="challenges"></app-challenges>
-    <app-coaches></app-coaches>
-  </content>
+  <mat-card>
+    <div>Heute: 22.12.2019</div>
+    <div>Punkte: 0 / 0</div>
+  </mat-card>
 
+  <app-challenges class="challenges"></app-challenges>
+  <app-coaches></app-coaches>
 </div>
-
